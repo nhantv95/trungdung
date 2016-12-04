@@ -5,11 +5,14 @@
  */
 ?>
 
-		<!-- <hr />
-		<div id="footer">
-			<p>&copy; <?php bloginfo('name'); ?>. <a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a> | <a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a>.</p>	
-		</div> -->
+</div> <!-- Close div tag content -->
+
+<!--		<hr />-->
+<!--		<div id="footer">-->
+<!--			<p>&copy; --><?php //bloginfo('name'); ?><!--. <a href="--><?php //bloginfo('rss2_url'); ?><!--">Entries (RSS)</a> | <a href="--><?php //bloginfo('comments_rss2_url'); ?><!--">Comments (RSS)</a>.</p>-->
+<!--		</div>-->
 		<!-- / footer -->
+
 		<div class="footer">
          <div class="container">   	 
 	       	<div class="footer_top">
@@ -25,25 +28,19 @@
 					    </div>
 	       	 		</div>
 	       	 		<div class="col-md-4 footer_grid">
-	       	 			<h4>Twitter Feed</h4>
-	       	 			<div class="footer-list">
-						 <ul>
-							<li class="list_top"><i class="fa fa-twitter twt"></i>
-							<p>Lorem ipsum <span class="yellow"><a href="#">consectetuer</a></span>vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatu</p></li><p></p>
-							<li><i class="fa fa-twitter twt"></i>
-							<p>Lorem ipsum <span class="yellow"><a href="#">consectetuer</a></span>vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatu</p></li><p></p>
-		                 </ul>
-					    </div>
+	       	 			<h4>Facebook Feed</h4>
+				        <?php $a="[facebook_likebox url=\"https://www.facebook.com/trungdungrestaurant\" ]";
+				        echo do_shortcode($a);?>
 	       	 		</div>
 	       	 		<div class="col-md-4 footer_grid">
-	       	 			<h4>Our Address</h4>
+	       	 			<h4>Địa chỉ</h4>
 	       	 			<div class="company_address">
-				     	        <p>500 Lorem Ipsum Dolor Sit,</p>
-						   		<p>22-56-2-9 Sit Amet, Lorem,</p>
-						   		<p>USA</p>
-				   		<p>Phone:(00) 222 666 444</p>
-				   		<p>Fax: (000) 000 00 00 0</p>
-				 	 	<p>Email: <span><a href="mailto:info@mycompany.com">info(at)mycompany.com</a></span></p>
+				     	        <p>46 Trần Quốc Hoàn - Cầu Giấy - Hà Nội</p>
+						   		<p>16 Phạm Tuấn Tài - Cầu Giấy - Hà Nội</p>
+						   		<p>Việt Nam</p>
+				   		<p>Điện thoại: 0968 353 688</p>
+				   		<p>Hotline: 0986 345 188</p>
+				 	 	<p>Email: <span><a href="mailto:info@mycompany.com">trungdungrestaurant@yahoo.com</a></span></p>
 				   		</div>
 				      <ul class="socials">
 	                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -57,14 +54,14 @@
        	    </div>
             <div class="footer_bottom">
 		           <div class="copy_right">
-						<p>© 2013 All Rights Reseverd Designed by <a href="http://w3layouts.com/">W3layouts</a> </p>
+						<p>© 2016+ All Rights Reseverd Developed by 3C13-NPTPD
 				   </div>
 				   <div class="footer_nav">
 				   	 <ul>
-				   	 	<li><a href="index.html">Home</a></li>
+				   	 	<li><a href="<?= esc_url(home_url('/')); ?>">Trang chủ</a></li>
 				   	 	<li><a href="#">Terms of use</a></li>
 				   	 	<li><a href="#">Privacy Policy</a></li>
-				   	 	<li><a href="contact.html">Contact</a></li>
+				   	 	<li><a href="#">Liên hệ</a></li>
 				   	 </ul>
 				    </div>
 				  <div class="clearfix"></div>
