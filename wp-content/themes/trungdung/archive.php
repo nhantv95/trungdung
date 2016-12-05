@@ -8,7 +8,18 @@
 		
 		?>
 		
-		<div id="primary_content"><?php
+		<div id="primary_content">
+		<div class="reservation_banner">
+			<div class="main_title">BÀI VIẾT CỦA NHÀ HÀNG</div>
+			<div class="divider"></div>
+		</div>
+ 
+<div class="main"> 
+ <div class="reservation_top">
+   <div class="container">
+     <div class="row">
+     	<div class="col-md-8">
+		<?php
 		
 		if(have_posts()):
 			 $post = $posts[0]; // Hack. Set $post so that the_date() works
@@ -68,17 +79,22 @@
 		
 		while(have_posts()):
 			the_post();
+			// get_template_part( 'content');
 			
 			?>
 			
 		<div <?php post_class() ?>>
-			<h2 id="archive_item_<?php the_ID(); ?>" class="post_title archive_item_title"><a href="<?php the_permalink() ?>" rel="bookmark" class=" post_title_link archive_item_title_link"><?php the_title(); ?></a></h2>
+			<!-- <h2 id="archive_item_<?php the_ID(); ?>" class="post_title archive_item_title"><a href="<?php the_permalink() ?>" rel="bookmark" class=" post_title_link archive_item_title_link"><?php the_title(); ?></a></h2>
 			<p class="post_meta archive_item_meta">Published in <?php the_category(', ') ?> on <?php the_time('l, F jS, Y') ?></p>
 			<p class="post_tags archive_item_tags"><?php the_tags('Tags: ', ', ', ''); ?></p>
 			<p class="post_comments archive_item_comments"><?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
 			<div class="post_content archive_item_content">
 				<?php the_content() ?>
-			</div><!-- / post_content archive_item_content -->
+			</div> -->
+			<div class="post1">
+			<?php get_template_part( 'content' );?>
+			</div>
+			<!-- / post_content archive_item_content -->
 		</div><!-- / <?php post_class() ?> --><?php
 		
 		endwhile;
@@ -122,9 +138,19 @@
 	
 	?>
 
-	</div><?php
+	</div>
 
-	get_sidebar();
+<!-- </div> -->
+    	<div class="col-md-4">
+    		<?PHP get_sidebar(); ?>
+    		</div>
+    </div>
+   </div>
+ </div>
+</div>
+	<?php
+
+	// get_sidebar();
 	get_footer();
 	
 	?>
