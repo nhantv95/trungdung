@@ -88,7 +88,7 @@
                     <li><a href="#">Tin tức</a></li>
                     <li><a href="#">Thực đơn</a></li>
                     <li><a href="#">Đặt bàn</a></li>
-                    <li><a href="#">Đánh giá</a></li>
+<!--                    <li><a href="#">Đánh giá</a></li>-->
                     <div class="clearfix"></div>
                 </ul>
             </div>
@@ -96,5 +96,3 @@
         <div class="clearfix"></div>
     </div>
 </div>
-
-<div class="main"> <!--- Open div tag content->
