@@ -49,10 +49,10 @@
             <li><a href="<?php the_permalink() ;?>" title="<?php the_title(); ?>"><?php the_title(); ?></a> <br><span><?php echo $myText['0']; ?> tháng <?php echo $myText['1']; ?></span></li> </li>
         <?php endwhile; endif;?>
 	</ul>
-	<ul class="recent-list">
-		<?php $a="[facebook_likebox url=\"https://www.facebook.com/trungdungrestaurant\" ]"; 
-		echo do_shortcode($a);?>
-	</ul>
+<!--	<ul class="recent-list">-->
+<!--		--><?php //$a="[facebook_likebox url=\"https://www.facebook.com/trungdungrestaurant\" ]";
+//		echo do_shortcode($a);?>
+<!--	</ul>-->
 
 
 		<!-- <hr />
