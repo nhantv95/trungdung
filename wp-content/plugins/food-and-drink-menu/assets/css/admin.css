@@ -1,0 +1,347 @@
+/*!
+ * Styles to handle admin functions of Food and Drink Menu, including the
+ * menu item prices and the menu layout control.
+ *
+ * @since 1.5
+ */
+/**
+ * Base styles for admin controls
+ *
+ * @since 1.5
+ */
+.fdm-input-control {
+  position: relative;
+  margin: 1em 0;
+}
+.fdm-input-control:last-child {
+  margin-bottom: 0;
+}
+.fdm-input-control label {
+  width: 100%;
+  display: block;
+  font-weight: bold;
+}
+.fdm-input-control input[type="text"] {
+  width: 25em;
+}
+.fdm-input-control .fdm-input-delete {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 20px;
+  height: 22px;
+  transform: translateY(-50%);
+  padding: 0  0.5em;
+  background: #eee;
+  border-left: 1px solid #ddd;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+.fdm-input-side-panel .fdm-input-control input[type="text"] {
+  width: 100%;
+}
+.fdm-radio-control label {
+  display: inline;
+  width: auto;
+}
+.fdm-input-control .fdm-input-delete:before {
+  content: "×";
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.fdm-input-control .fdm-input-delete:hover,
+.fdm-input-control .fdm-input-delete:focus {
+  background: red;
+}
+.fdm-input-control .fdm-input-delete:hover:before,
+.fdm-input-control .fdm-input-delete:focus:before {
+  color: #fff;
+}
+.fdm-menu-shortcode {
+  font-family: monospace;
+  background-color: white;
+  padding: 0.5em 1em;
+  border: 1px solid #ddd;
+  border-radius: 0.25em;
+}
+/**
+ * Styles for the menu list table
+ *
+ * @since 1.5
+ */
+.fdm-cols:before,
+.fdm-cols:after {
+  content: " ";
+  display: table;
+}
+.fdm-cols:after {
+  clear: both;
+}
+.fdm-cols *,
+.fdm-cols *:before,
+.fdm-cols *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fdm-cols a {
+  display: block;
+  padding: 0.25em 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left-width: 0.25em;
+  margin-bottom: 0.25em;
+  background: #fff;
+}
+@media (min-width: 468px) {
+  .fdm-cols .fdm-col {
+    float: left;
+    width: 50%;
+  }
+  .fdm-cols .fdm-col:nth-child(2) {
+    padding-left: 0.5em;
+  }
+}
+.fdm-item-list-price .fdm-item-price-form {
+  position: absolute;
+  left: -9999px;
+}
+.fdm-item-list-price.is-visible .fdm-item-price-form {
+  position: relative;
+  left: auto;
+}
+.fdm-item-list-price.is-visible .fdm-item-price-actions {
+  position: absolute;
+  left: -9999px;
+}
+.fdm-item-price-form {
+  margin: 1em 0;
+  padding: 0 1em 1em 1em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.fdm-item-price-buttons {
+  margin-top: 1em;
+  text-align: right;
+}
+.fdm-item-price-buttons .spinner {
+  float: none;
+  margin-top: 0.35em;
+}
+.fdm-item-price-message {
+  display: block;
+  margin-top: 1em;
+  padding: 0.5em;
+  border: 1px solid red;
+  border-left-width: 0.25em;
+}
+.fdm-item-price-message:empty {
+  display: none;
+}
+/**
+ * Styles for price control for menu items
+ *
+ * @since 1.5
+ */
+.fdm-input-prices .fdm-input-control:first-child .fdm-input-delete {
+  display: none;
+}
+/**
+ * Styles for menu layout control
+ *
+ * @since 1.5
+ */
+#fdm-menu-organizer > *,
+#fdm-menu-organizer > *:before,
+#fdm-menu-organizer > *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#fdm-menu-organizer {
+  border: 1px solid #ddd;
+}
+.fdm-column {
+  float: left;
+  width: 33%;
+  border-right: 1px solid #ddd;
+}
+.fdm-column:first-child {
+  background: #fafafa;
+}
+.fdm-column:nth-child(3) {
+  width: 34%;
+  border-right: none;
+}
+.fdm-column h3 {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+  padding: 1em;
+  font-size: 1em;
+  text-align: center;
+}
+.fdm-column ul {
+  margin: 0;
+  padding: 1em;
+  height: 300px;
+  overflow: auto;
+}
+.fdm-column ul > li {
+  position: relative;
+}
+.fdm-column .fdm-title {
+  display: block;
+  position: relative;
+  padding: 0.25em 3em 0.25em 3.5em;
+  background: #fff;
+  line-height: 2em;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.fdm-column .fdm-title:hover,
+.fdm-column .fdm-title:focus {
+  border-color: #333;
+}
+.fdm-column .fdm-edit-section-name,
+.fdm-column .fdm-term-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2.5em;
+  background: #eee;
+  border-right: 1px solid #ddd;
+  text-align: center;
+  line-height: 2.5em;
+}
+.fdm-column .fdm-term-count {
+  color: #888;
+}
+.fdm-column .fdm-edit-section-name {
+  left: auto;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  border-right: none;
+  border-left: 1px solid #ddd;
+  text-decoration: none;
+}
+.fdm-column .fdm-edit-section-name:before {
+  display: inline-block;
+  content: "\f464";
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: dashicons;
+  text-decoration: inherit;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: top;
+  text-align: center;
+  -webkit-transition: color 0.1s ease-in 0;
+  transition: color 0.1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fdm-column .fdm-edit-section-name:hover,
+.fdm-column .fdm-edit-section-name:focus {
+  background: #0073aa;
+  color: #fff;
+}
+.fdm-column .fdm-no-sections {
+  padding: 1em;
+  height: 300px;
+  background: #fff;
+  color: #777;
+}
+#fdm-menu-sections-list .fdm-edit-section-name {
+  display: none;
+}
+.fdm-menu-sections-placeholder {
+  display: block;
+  width: 100%;
+  height: 3em;
+  border: 1px dashed #bbb;
+  background: #fafafa;
+}
+#fdm-menu-organizer > .description {
+  clear: both;
+  margin: 0;
+  padding: 1em;
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+}
+#fdm-menu-section-modal label {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+#fdm-menu-section-modal .description {
+  margin: 1em 0 2em;
+}
+/**
+ * Styles for modals in the admin
+ *
+ * @since 1.5
+ */
+.fdm-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  overflow-y: auto;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s 0, visibility 0 0.3s;
+  -moz-transition: opacity 0.3s 0, visibility 0 0.3s;
+  transition: opacity 0.3s 0, visibility 0 0.3s;
+}
+.fdm-modal.is-visible {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s 0, visibility 0 0;
+  -moz-transition: opacity 0.3s 0, visibility 0 0;
+  transition: opacity 0.3s 0, visibility 0 0;
+}
+.fdm-modal.is-visible .fdm-modal-content {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.fdm-modal .fdm-modal-content {
+  position: relative;
+  width: 90%;
+  max-width: 20em;
+  padding: 2em;
+  background: #FFF;
+  margin: 3em auto 4em;
+  cursor: auto;
+  border-radius: 0.25em;
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  -o-transform: translateY(-30px);
+  transform: translateY(-30px);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}

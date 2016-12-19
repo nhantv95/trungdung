@@ -87,7 +87,7 @@
                     <li><a href="#">Giới thiệu</a></li>
                     <li><a href="#">Tin tức</a></li>
                     <li><a href="#">Thực đơn</a></li>
-                    <li><a href="#">Đặt bàn</a></li>
+                    <li><a href="/booking.php">Đặt bàn</a></li>
 <!--                    <li><a href="#">Đánh giá</a></li>-->
                     <div class="clearfix"></div>
                 </ul>
