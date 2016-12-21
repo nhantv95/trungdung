@@ -7,7 +7,7 @@
 automatic_feed_links();
 
 function addFeedback(){
-	if( 'POST' == $_SERVER['REQUEST_METHOD'] && isset ($_POST['mail']) ) {
+	if( 'POST' == $_SERVER['REQUEST_METHOD']) {
 			// Do some minor form validation to make sure there is content
 			if (isset ($_POST['title'])) {
 				$title =  $_POST['title'];
@@ -15,7 +15,7 @@ function addFeedback(){
 				echo 'Please enter the wine name';
 			}
 			if (isset ($_POST['content'])) {
-				$description = $_POST['content'];
+				$description = $_POST['description'];
 			} else {
 				echo 'Please enter some notes';
 			}
@@ -26,6 +26,7 @@ function addFeedback(){
 				$mail = $_POST['mail'];
 			}
 			$tags = $_POST['post_tags'];
+		 
 			// ADD THE FORM INPUT TO $new_post ARRAY
 			$new_post = array(
 			'post_title'    =>   $title,
@@ -37,23 +38,19 @@ function addFeedback(){
 				'mail' => $mail,
 				)
 			);
-			
-		 	
-			
-			//echo $_POST['content'] +"           ";
+		 
 			//SAVE THE POST
 			$pid = wp_insert_post($new_post);
-			var_dump($_POST);
-			echo"<br>";
-			var_dump($new_post);
-			var_dump($pid);
-			header('Location: /trungdung/contact');
-			exit();
+		 
+					 //SET OUR TAGS UP PROPERLY
+			//REDIRECT TO THE NEW POST ON SAVE
+		 
 		} // END THE IF STATEMENT THAT STARTED THE WHOLE FORM
+		 
 		//POST THE POST YO
-}
-add_action( 'init', 'addFeedback' );
+		do_action('wp_insert_post', 'wp_insert_post');
 
+}
 
 if(function_exists('register_sidebar'))
 	register_sidebar(array(
