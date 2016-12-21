@@ -1,0 +1,18 @@
+.metabox-holder { overflow: hidden }
+
+@media screen and (min-width: 760px){
+  .postbox-container.left { float: left; width: 69% }
+  .postbox-container.right { float: right; width: 29% }
+}
+
+.capability-selection { padding: 5px }
+.capability-selection:nth-child(2n) { background-color: #eee }
+
+.wrap .postbox .hndle { cursor: default; }
+
+select { min-width: 80px }
+
+input[type="number"], select.number { width: 80px; text-align: center }
+input[type="text"], input[type="password"] { width: 100% }
+
+a.unlock { color: #bbb; text-decoration: none; display: inline-block }

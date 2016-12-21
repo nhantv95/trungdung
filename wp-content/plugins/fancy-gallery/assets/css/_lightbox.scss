@@ -1,0 +1,297 @@
+.gallery-lightbox-container {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  display: none;
+  direction: ltr;
+  -ms-touch-action: none;
+  touch-action: none;
+  -moz-backface-visibility: hidden;
+  -webkit-transition: opacity 0.25s linear;
+     -moz-transition: opacity 0.25s linear;
+      -ms-transition: opacity 0.25s linear;
+       -o-transition: opacity 0.25s linear;
+          transition: opacity 0.25s linear;
+
+  * {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+
+  &.display {
+    display: block;
+    opacity: 1;
+  }
+
+  .slide-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -moz-backface-visibility: hidden;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 1;
+  }
+
+  .title-description {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    margin: 0 40px 0 0;
+    line-height: 150%;
+    color: #fff;
+    display: none;
+
+    .title,
+    .description,
+    .gallery {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 5px;
+      margin: 5px 0;
+      display: inline-block;
+      border-radius: 3px;
+    }
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    a.gallery:before { content: "[" }
+    a.gallery:after { content: "]" }
+
+    :empty {
+      display: none;
+    }
+  }
+
+  &.controls > .title-description {
+    display: block
+  }
+
+  .slides {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .slide {
+    position: relative;
+    float: left;
+    height: 100%;
+    text-align: center;
+    -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+       -moz-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+        -ms-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+         -o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+            transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .slide-content {
+    -webkit-transition: opacity 0.5s linear;
+       -moz-transition: opacity 0.5s linear;
+        -ms-transition: opacity 0.5s linear;
+         -o-transition: opacity 0.5s linear;
+            transition: opacity 0.5s linear;
+  }
+
+  .slide-loading {
+    background: url("../img/loading.gif") center no-repeat;
+    background-size: 64px 64px;
+    & > .slide-content {
+      opacity: 0;
+    }
+  }
+
+  .slide-error {
+    background: url("../img/error.svg") center no-repeat;
+    & > .slide-content {
+      display: none;
+    }
+  }
+
+  & > .close,
+  & > .prev,
+  & > .next,
+  & > .play-pause {
+    display: none;
+    position: absolute;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+    line-height: 50px;
+    font-size: 20px;
+    text-shadow: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:before {
+      font-family: "gallery-manager-lightbox-icons";
+      font-weight: normal;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+
+  & > .close:before { content: '\e801' }
+  & > .prev:before { content: '\e802'; padding-right: 2px }
+  & > .next:before { content: '\e803'; padding-left: 2px }
+  & > .play-pause:before { content: '\e804' }
+  &.playing > .play-pause:before { content: '\e805' }
+
+  & > .prev,
+  & > .next {
+    margin-top: -23px;
+    font-size: 28px;
+  }
+
+  & > .prev {
+    top: 50%;
+    left: 15px;
+  }
+
+  & > .next {
+    top: 50%;
+    right: 15px;
+  }
+
+  & > .close {
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+  }
+
+  & > .play-pause {
+    right: 15px;
+    bottom: 15px;
+    font-size: 20px;
+  }
+
+  & > .prev:hover,
+  & > .next:hover,
+  & > .close:hover,
+  & > .title:hover,
+  & > .play-pause:hover {
+    color: #fff;
+    opacity: 1;
+  }
+
+  &.controls > .prev,
+  &.controls > .next,
+  &.controls > .close,
+  &.controls > .title,
+  &.controls > .play-pause {
+    display: block;
+    /* Fix z-index issues (controls behind slide element) on Android: */
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+
+  &.single > .prev,
+  &.left-edge > .prev,
+  &.single > .next,
+  &.right-edge > .next,
+  &.single > .play-pause {
+    display: none;
+  }
+
+  & > .slide-content,
+  & > .prev,
+  & > .next,
+  & > .close,
+  & > .play-pause {
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .indicator {
+    position: absolute;
+    top: auto;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    margin: 0 40px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 10px;
+    display: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    li {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      margin: 6px 3px 0 3px;
+      border: 1px solid transparent;
+      background: #ccc;
+      background: rgba(255, 255, 255, 0.25) center no-repeat;
+      border-radius: 5px;
+      box-shadow: 0 0 2px #000;
+      opacity: 0.5;
+      cursor: pointer;
+
+      background-size: cover;
+      padding: 0;
+      box-shadow: none;
+
+      @media (min-width: 800px){
+        height: 26px;
+        width: 26px;
+        border: none;
+        border-radius: 50%;
+      }
+    }
+
+    li:hover, .active {
+      background-color: #fff;
+      border-color: #fff;
+      opacity: 1;
+    }
+  }
+
+  &.controls > .indicator {
+    display: block;
+    /* Fix z-index issues (controls behind slide element) on Android: */
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+
+  &.single > .indicator {
+    display: none;
+  }
+}

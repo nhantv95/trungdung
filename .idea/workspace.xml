@@ -2,8 +2,746 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a66a5b3e-3c0b-42c5-949a-320628e2b33b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/jquery-ui/jquery-ui.theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/wprm-admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/wprm-admin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/wprm-front-css.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/wprm-front-css.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/wprm-picker-classic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/css/wprm-picker-default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/fonts/wprestaurantmanager.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/fonts/wprestaurantmanager.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/fonts/wprestaurantmanager.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/fonts/wprestaurantmanager.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/images/dot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/images/wprm_screenshot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/admin-scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/admin-scripts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/bg_BG.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/bs_BA.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/ca_ES.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/cs_CZ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/da_DK.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/de_DE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/el_GR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/es_ES.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/et_EE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/eu_ES.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/fa_IR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/fi_FI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/fr_FR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/gl_ES.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/he_IL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/hi_IN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/hr_HR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/hu_HU.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/id_ID.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/is_IS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/it_IT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/ja_JP.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/ko_KR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/lt_LT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/lv_LV.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/nb_NO.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/ne_NP.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/nl_NL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/no_NO.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/pl_PL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/pt_BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/pt_PT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/ro_RO.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/ru_RU.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/sk_SK.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/sl_SI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/sv_SE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/th_TH.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/tr_TR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/uk_UA.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/vi_VN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/picker/translations/zh_TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/wprm-front-scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/assets/js/wprm-front-scripts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/actions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/getting-started/getting-started.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/getting-started/getting-started.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/getting-started/getting-started.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/example-functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/helpers/cmb_Meta_Box_Sanitize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/helpers/cmb_Meta_Box_Show_Filters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/helpers/cmb_Meta_Box_ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/helpers/cmb_Meta_Box_field.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/helpers/cmb_Meta_Box_types.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ico-delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/init.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/js/cmb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/js/cmb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/js/jquery.datePicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/js/jquery.timePicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/tests/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/tests/bin/install-wp-tests.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/tests/phpunit/includes/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/metaboxes/tests/phpunit/tests/CMB_Core_Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/settings/contextual-help.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/settings/display-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/settings/register-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/tinymce/css/wprm-shortcodes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/tinymce/css/wprm_shortcodes_tinymce_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/admin/tinymce/js/wprm_shortcodes_tinymce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-addons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-bookings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-email-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-html-elements.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-menu-category-walker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-menu-tags-walker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-post-types.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/class-wprm-shortcodes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/filters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/metaboxes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/misc-functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/vendor/widget-class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/widgets/widget-booking-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/includes/widgets/widget-opening-times.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/languages/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/languages/wprm.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/templates/content-single-menu-item.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/templates/shortcode-single-menu-item.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/templates/widget-opening-times.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/uninstall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/wp-restaurant-manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-activate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/about.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/admin-ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/admin-footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/admin-functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/admin-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/admin-post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/async-upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/credits.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/about-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/about-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/about.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/about.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/admin-menu-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/admin-menu-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/admin-menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/admin-menu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/color-picker-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/color-picker-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/color-picker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/color-picker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/_admin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/blue/colors-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/blue/colors-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/blue/colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/blue/colors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/blue/colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/coffee/colors-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/coffee/colors-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/coffee/colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/coffee/colors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/coffee/colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ectoplasm/colors-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ectoplasm/colors-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ectoplasm/colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ectoplasm/colors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ectoplasm/colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/light/colors-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/light/colors-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/light/colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/light/colors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/light/colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/midnight/colors-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/midnight/colors-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/midnight/colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/midnight/colors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/midnight/colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ocean/colors-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ocean/colors-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ocean/colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ocean/colors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/ocean/colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/sunrise/colors-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/sunrise/colors-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/sunrise/colors.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/sunrise/colors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/colors/sunrise/colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/common-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/common-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/common.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-controls-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-controls-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-controls.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-controls.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-nav-menus-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-nav-menus-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-nav-menus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-nav-menus.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-widgets-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-widgets-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/customize-widgets.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/dashboard-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/dashboard-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/dashboard.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/deprecated-media-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/deprecated-media-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/deprecated-media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/deprecated-media.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/edit-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/edit-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/edit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/edit.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/farbtastic-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/farbtastic-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/farbtastic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/farbtastic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/forms-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/forms-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/forms.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/ie-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/ie-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/ie.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/install-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/install-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/install.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/install.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/l10n-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/l10n-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/l10n.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/l10n.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/list-tables-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/list-tables-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/list-tables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/list-tables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/login-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/login-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/login.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/media-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/media-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/media.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/nav-menus-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/nav-menus-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/nav-menus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/nav-menus.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/press-this-editor-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/press-this-editor-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/press-this-editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/press-this-editor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/press-this-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/press-this-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/press-this.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/press-this.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/revisions-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/revisions-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/revisions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/revisions.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/site-icon-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/site-icon-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/site-icon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/site-icon.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/themes-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/themes-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/themes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/themes.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/widgets-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/widgets-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/widgets.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/wp-admin-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/wp-admin-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/wp-admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/css/wp-admin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/custom-background.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/custom-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/customize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/edit-comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/edit-form-advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/edit-form-comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/edit-link-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/edit-tag-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/edit-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/freedoms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/align-center-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/align-center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/align-left-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/align-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/align-none-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/align-none.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/align-right-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/align-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/arrows-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/browser-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/bubble_bg-2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/bubble_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/comment-grey-bubble-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/comment-grey-bubble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/date-button-2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/date-button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/icons32-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/icons32-vs-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/icons32-vs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/icons32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/imgedit-icons-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/imgedit-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/list-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/marker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/mask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/media-button-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/media-button-image.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/media-button-music.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/media-button-other.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/media-button-video.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/media-button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/menu-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/menu-vs-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/menu-vs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/post-formats-vs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/post-formats.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/post-formats32-vs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/post-formats32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/resize-2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/resize-rtl-2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/resize-rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/se.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/sort-2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/sort.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/spinner-2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/stars-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/stars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/w-logo-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/w-logo-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/wheel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/wordpress-logo-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/wordpress-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/wordpress-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/wpspin_light-2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/wpspin_light.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/xit-2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/xit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/images/yes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/admin-filters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/ajax-actions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/bookmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-automatic-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-bulk-plugin-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-bulk-theme-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-bulk-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-core-upgrader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-file-upload-upgrader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-ftp-pure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-ftp-sockets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-ftp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-language-pack-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-language-pack-upgrader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-pclzip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-plugin-installer-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-plugin-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-plugin-upgrader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-theme-installer-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-theme-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-theme-upgrader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-walker-category-checklist.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-walker-nav-menu-checklist.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-walker-nav-menu-edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-ajax-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-automatic-updater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-comments-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-filesystem-base.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-filesystem-direct.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-filesystem-ftpsockets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-filesystem-ssh2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-importer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-internal-pointers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-links-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-list-table-compat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-media-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-ms-sites-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-ms-themes-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-ms-users-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-plugin-install-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-plugins-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-post-comments-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-posts-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-press-this.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-screen.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-site-icon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-terms-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-theme-install-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-themes-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-upgrader-skin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-upgrader-skins.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-upgrader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/class-wp-users-list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/continents-cities.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/credits.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/dashboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/deprecated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/edit-tag-messages.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/export.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/image-edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/list-table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/meta-boxes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/misc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/ms-admin-filters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/ms-deprecated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/ms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/nav-menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/network.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/noop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/plugin-install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/plugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/revision.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/schema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/screen.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/taxonomy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/theme-install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/theme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/translation-install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/update-core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/upgrade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/includes/widgets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/install-helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/accordion.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/bookmarklet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/bookmarklet.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/color-picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/color-picker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/comment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/comment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/common.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/custom-background.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/custom-background.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/custom-header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/customize-controls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/customize-controls.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/customize-nav-menus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/customize-nav-menus.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/customize-widgets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/customize-widgets.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/dashboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/edit-comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/edit-comments.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/editor-expand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/editor-expand.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/editor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/farbtastic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/gallery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/image-edit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/image-edit.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/inline-edit-post.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/inline-edit-post.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/inline-edit-tax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/inline-edit-tax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/iris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/language-chooser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/language-chooser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/link.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/media-gallery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/media-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/media-upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/media-upload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/media.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/nav-menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/nav-menu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/password-strength-meter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/password-strength-meter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/plugin-install.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/plugin-install.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/post.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/post.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/postbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/postbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/press-this.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/press-this.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/revisions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/revisions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/set-post-thumbnail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/set-post-thumbnail.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/svg-painter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/svg-painter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/tags-box.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/tags-box.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/tags-suggest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/tags-suggest.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/tags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/tags.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/updates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/updates.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/user-profile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/user-profile.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/user-suggest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/user-suggest.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/widgets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/widgets.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/word-count.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/word-count.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/wp-fullscreen-stub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/wp-fullscreen-stub.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/xfn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/js/xfn.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/link-add.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/link-manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/link-parse-opml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/load-scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/load-styles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/maint/repair.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/media-new.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/media-upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/menu-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/moderation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/ms-admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/ms-delete-site.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/ms-edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/ms-options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/ms-sites.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/ms-themes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/ms-upgrade-network.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/ms-users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/my-sites.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/nav-menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/about.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/credits.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/freedoms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/plugin-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/plugin-install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/plugins.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/profile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/setup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/site-info.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/site-new.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/site-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/site-themes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/site-users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/sites.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/theme-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/theme-install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/themes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/update-core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/upgrade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/user-edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/user-new.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/network/users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/options-discussion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/options-general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/options-head.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/options-media.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/options-permalink.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/options-reading.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/options-writing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/plugin-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/plugin-install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/plugins.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/post-new.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/press-this.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/profile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/revision.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/setup-config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/term.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/theme-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/theme-install.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/themes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/tools.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/update-core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/update.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/upgrade-functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/upgrade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user-edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user-new.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user/about.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user/credits.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user/freedoms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user/menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user/profile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/user/user-edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-admin/widgets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-comments-post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/author-bio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/content-link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/content-none.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/content-search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/css/editor-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/genericons/COPYING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/genericons/Genericons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/genericons/Genericons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/genericons/Genericons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/genericons/Genericons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/genericons/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/genericons/genericons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/inc/back-compat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/inc/custom-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/inc/customizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/inc/template-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/js/color-scheme-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/js/customize-preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentyfifteen/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/css/editor-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/css/ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/inc/back-compat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/inc/customizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/inc/template-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/js/color-scheme-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/js/customize-preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/js/keyboard-image-navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/sidebar-content-bottom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/template-parts/biography.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/template-parts/content-none.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/template-parts/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-content/themes/twentysixteen/template-parts/content-search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-cron.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/upgrade/wordpress-4.7-new-bundled-scHkE7/wordpress/wp-settings.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/archive.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/templates/tin-tuc.php" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/templates/tin-tuc.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +762,7 @@
       <file leaf-file-name="booking.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/booking.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="221">
               <caret line="19" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="e#6#116#0#PHP" expanded="true" />
@@ -33,11 +771,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menus.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menus.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/menus.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#6#112#0#PHP" expanded="true" />
               </folding>
@@ -48,18 +786,38 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            <state relative-caret-position="1462">
+              <caret line="89" column="53" lean-forward="false" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/content.php">
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="680">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="136" column="22" lean-forward="true" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/comments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,8 +826,8 @@
       <file leaf-file-name="tin-tuc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/tin-tuc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="1122">
+              <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -84,18 +842,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/css/nav.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/trungdung/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/trungdung/templates/tin-tuc.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/booking.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/trungdung/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/templates/booking.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/trungdung/templates/menus.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/trungdung/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/trungdung/templates/tin-tuc.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/trungdung/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/trungdung/index.php" />
       </list>
     </option>
   </component>
@@ -130,7 +889,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -226,6 +984,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,18 +1074,19 @@
       <workItem from="1480921229926" duration="1650000" />
       <workItem from="1481429908363" duration="713000" />
       <workItem from="1481728157041" duration="1831000" />
-      <workItem from="1482133739231" duration="2700000" />
+      <workItem from="1482133739231" duration="6139000" />
+      <workItem from="1482162531685" duration="3641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12590000" />
+    <option name="totallyTimeSpent" value="19670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16251831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16251831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -344,6 +1104,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16251831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -362,6 +1141,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#116#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/menus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#112#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="89" column="53" lean-forward="false" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/tin-tuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/booking.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -459,14 +1298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="166" column="14" lean-forward="false" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -499,11 +1330,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/booking.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
+        <state relative-caret-position="221">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#116#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/templates/content-single-menu-item.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/food-and-drink-menu/fdm-templates/menu-item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/templates/shortcode-single-menu-item.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/food-and-drink-menu/food-and-drink-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/food-and-drink-menu/views/View.Item.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -515,41 +1371,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/tin-tuc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        <state relative-caret-position="1462">
+          <caret line="89" column="53" lean-forward="false" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/booking.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#116#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/templates/content-single-menu-item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/food-and-drink-menu/fdm-templates/menu-item.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/comments.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -557,26 +1387,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-restaurant-manager/templates/shortcode-single-menu-item.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/tin-tuc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="1122">
+          <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/food-and-drink-menu/food-and-drink-menu.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/food-and-drink-menu/views/View.Item.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="680">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -584,10 +1406,18 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/templates/menus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#6#112#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/trungdung/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="136" column="22" lean-forward="true" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
