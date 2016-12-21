@@ -9,7 +9,7 @@
 ?>
 <?php get_header(); ?>
     <div class="reservation_banner">
-        <div class="main_title">Đặt bàn tại nhà hàng Trung Dũng</div>
+        <div class="main_title">Đặt bàn</div>
         <div class="divider"></div>
     </div>
 

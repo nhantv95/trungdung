@@ -8,9 +8,6 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head profile="http://gmpg.org/xfn/11">
-    <!-- <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" /> -->
-    <!-- <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> -->
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('stylesheet_url'); ?>" /> -->
     <title><?php wp_title('&laquo;', true, 'right'); ?><?php bloginfo('name'); ?></title>
 
     <!-- dẫn link css và js -->
@@ -45,10 +42,7 @@
         <div class="container">
             <div class="headertop_nav">
                 <ul>
-                    <li><a href="#">Contact</a> /</li>
-                    <li><a href="#">Sitemap</a> /</li>
-                    <li><a href="#l">Feedback</a> /</li>
-                    <li><a href="#">Worldwide Locations</a></li>
+
                 </ul>
             </div>
             <div class="header-top-right">
@@ -84,11 +78,11 @@
                 <input id="mobile_menu" type="checkbox"/>
                 <ul class="nav">
                     <li><a href="<?= esc_url(home_url('/')); ?>">Trang chủ</a></li>
-                    <li><a href="#">Giới thiệu</a></li>
-                    <li><a href="#">Tin tức</a></li>
-                    <li><a href="#">Thực đơn</a></li>
-                    <li><a href="<?= get_permalink(38) ?>">Đặt bàn</a></li>
-<!--                    <li><a href="#">Đánh giá</a></li>-->
+                    <li><a href="<?= get_permalink(75) ?>">Giới thiệu</a></li>
+                    <li><a href="<?= get_permalink(4) ?>">Tin tức</a></li>
+                    <li><a href="<?= get_permalink(38) ?>">Thực đơn</a></li>
+                    <li><a href="<?= get_page_link(23)?>">Đặt bàn</a></li>
+                    <li><a href="<?= get_page_link(67)?>">Liên hệ/Phản hồi</a></li>
                     <div class="clearfix"></div>
                 </ul>
             </div>

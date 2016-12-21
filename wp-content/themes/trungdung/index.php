@@ -43,34 +43,28 @@ get_header();
     <div class="container">
         <div class="row grids text-center">
             <div class="col-md-4">
-<!--                <div class="view view-tenth">-->
-<!--                    <a href="single.html">-->
-<!--                        <div class="inner_content clearfix">-->
-<!--                            <div class="product_image">-->
-<!--                                <img src="images/pic2.jpg" class="img-responsive" alt=""/>-->
-<!--                                <div class="label-product">-->
-<!--                                    <span class="new">From 150$</span></div>-->
-<!--                                <div class="mask">-->
-<!--                                    <h2>Room with one Bedroom</h2>-->
-<!--                                    <h3>A wonderful serenity has taken possession of my entire soul</h3>-->
-<!--                                    <div class="info"><i class="fa fa-search-plus"></i></div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </a>-->
-<!--                </div>-->
-<!--                <div class="product_container wow bounceIn" data-wow-delay="0.4s">-->
-<!--                    <h3><a href="#">King Size Bedroom</a></h3>-->
-<!--                    <div class="underheader-line"></div>-->
-<!--                    <ul class="person">-->
-<!--                        <h4>Max Person:</h4>-->
-<!--                        <li><i class="fa fa-male"> </i></li>-->
-<!--                        <li><i class="fa fa-male"> </i></li>-->
-<!--                        <li><i class="fa fa-male"> </i></li>-->
-<!--                    </ul>-->
-<!--                    <p>Beds:3 Single Beds</p>-->
-<!--                </div>-->
-                <?= do_shortcode('[gallery id="49" type="circle"]')?>
+                <?php
+                $args2 = array(
+                    'post_type' => 'thuc-don',
+                    'posts_per_page' => 4,
+                );
+                $wp_query = new WP_Query($args2);
+                ?>
+
+                <?php
+                //var_dump($wp_query);
+                if ($wp_query->have_posts()) : while ($wp_query->have_posts()):$wp_query->the_post();
+                    ?>
+                    <div class="post1 col-md-6">
+                        <h4> <?php echo get_field('name'); ?> </h4>
+                        <div class="post1_header">
+                            Chủ đề: <?php the_title(); ?>
+                        </div>
+                        <p>
+                            <?php echo get_the_content(); ?>
+                        </p>
+                    </div>
+                <?php endwhile; endif; ?>
             </div>
         </div>
     </div>
@@ -78,10 +72,9 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <div id="main-reservation-text"><h3>Liên hệ <span>+1 2547 487 8974</span> hoặc đặt bàn trước
+                    <div id="main-reservation-text"><h3>Liên hệ <span>0968 353 688</span> hoặc đặt bàn trước
                             ngay bây giờ!</h3>
-                        <p>vestibulum eu euismod quam nullam at accumsan orci aenean ullamcorper nulla ut sapien
-                            ultrices dignissim</p>
+                        <p>Nhà hàng Trung Dũng hân hạnh được phục vụ quý khách.</p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -96,49 +89,67 @@ get_header();
             <div class="row">
                 <div class="col-md-8">
                     <div class="welcome_desc">
-                        <h3>Visitor Experienced</h3>
+                        <h3>Khách hàng nhận xét</h3>
                         <div class="course_demo">
-                            <ul id="flexiselDemo3">
-                                <!--                                    <li><img src="images/v5.jpg" class="img-responsive"/>-->
-                                <!--                                        <div class="desc">-->
-                                <!--                                            <h3>Lorem Ipsum</h3>-->
-                                <!--                                            <p>Lorem ipsum dolor<br> sit amet, consectetuer.</p>-->
-                                <!--                                        </div>-->
-                                <!--                                    </li>-->
-                            </ul>
-                            <script type="text/javascript">
-                                $(window).load(function () {
-                                    $("#flexiselDemo3").flexisel({
-                                        visibleItems: 4,
-                                        animationSpeed: 1000,
-                                        autoPlay: true,
-                                        autoPlaySpeed: 3000,
-                                        pauseOnHover: true,
-                                        enableResponsiveBreakpoints: true,
-                                        responsiveBreakpoints: {
-                                            portrait: {
-                                                changePoint: 480,
-                                                visibleItems: 1
-                                            },
-                                            landscape: {
-                                                changePoint: 640,
-                                                visibleItems: 2
-                                            },
-                                            tablet: {
-                                                changePoint: 768,
-                                                visibleItems: 2
-                                            }
-                                        }
-                                    });
+<!--                            <ul id="flexiselDemo3">-->
+                                <?php
+                                $args2 = array(
+                                    'post_type' => 'feedback',
+                                    'meta_key' => 'isPosted',
+                                    'meta_value' => 'a:1:{i:0;s:4:"true";}',
+                                    'posts_per_page' => 4,
+                                );
+                                $wp_query = new WP_Query($args2);
+                                ?>
 
-                                });
-                            </script>
-                            <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+                                <?php
+                                //var_dump($wp_query);
+                                if ($wp_query->have_posts()) : while ($wp_query->have_posts()):$wp_query->the_post();
+                                    ?>
+                                    <div class="post1 col-md-6">
+                                        <h4> <?php echo get_field('name'); ?> </h4>
+                                        <div class="post1_header">
+                                            Chủ đề: <?php the_title(); ?>
+                                        </div>
+                                        <p>
+                                            <?php echo get_the_content(); ?>
+                                        </p>
+                                    </div>
+                                <?php endwhile; endif; ?>
+<!--                            </ul>-->
+<!--                            <script type="text/javascript">-->
+<!--                                $(window).load(function () {-->
+<!--                                    $("#flexiselDemo3").flexisel({-->
+<!--                                        visibleItems: 4,-->
+<!--                                        animationSpeed: 1000,-->
+<!--                                        autoPlay: true,-->
+<!--                                        autoPlaySpeed: 3000,-->
+<!--                                        pauseOnHover: true,-->
+<!--                                        enableResponsiveBreakpoints: true,-->
+<!--                                        responsiveBreakpoints: {-->
+<!--                                            portrait: {-->
+<!--                                                changePoint: 480,-->
+<!--                                                visibleItems: 1-->
+<!--                                            },-->
+<!--                                            landscape: {-->
+<!--                                                changePoint: 640,-->
+<!--                                                visibleItems: 2-->
+<!--                                            },-->
+<!--                                            tablet: {-->
+<!--                                                changePoint: 768,-->
+<!--                                                visibleItems: 2-->
+<!--                                            }-->
+<!--                                        }-->
+<!--                                    });-->
+<!---->
+<!--                                });-->
+<!--                            </script>-->
+<!--                            <script type="text/javascript" src="js/jquery.flexisel.js"></script>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 middle_right">
-                    <h3>Info</h3>
+                    <h3>Thông tin nhà hàng</h3>
                     <ul id="general-info">
                         <li><i class="fa fa-clock-o"> </i>Giờ mở cửa: 9h - 22h</li>
                         <li><i class="fa fa-globe"> </i>Miễn phí mạng wifi</li>
@@ -155,15 +166,29 @@ get_header();
     <div class="company_logos wow bounceIn" data-wow-delay="0.4s">
         <a href="<?= site_url('galleries')?>"><h3>Thư viện ảnh</h3></a>
         <div class="ocarousel_slider">
-            <div class="ocarousel example_photos" data-ocarousel-perscroll="3">
+            <div class="ocarousel example_photos">
                 <div class="ocarousel_window">
-                    <?= do_shortcode('[gallery type="circle" id="57"]') ?>
-
+                    <?php
+                    $args = array(
+                    'post_type' => 'attachment',
+                    'numberposts' => -1,
+                    'post_status' => null,
+                    'post_parent' => null, // any parent
+                    );
+                    $attachments = get_posts($args);
+                    if ($attachments) {
+                    foreach ($attachments as $post) {
+                    setup_postdata($post);
+                    the_title();
+                    the_attachment_link($post->ID, false);
+                    the_excerpt();
+                    }
+                    }?>
                 </div>
-                <span>
-			                <a href="#" data-ocarousel-link="left" class="prev"><i class="fa fa-angle-left"></i> </a>
-			                <a href="#" data-ocarousel-link="right" class="next"> <i class="fa fa-angle-right"></i></a>
-			               </span>
+<!--                <span>-->
+<!--			                <a href="#" data-ocarousel-link="left" class="prev"><i class="fa fa-angle-left"></i> </a>-->
+<!--			                <a href="#" data-ocarousel-link="right" class="next"> <i class="fa fa-angle-right"></i></a>-->
+<!--			               </span>-->
             </div>
         </div>
     </div>
