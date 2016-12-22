@@ -30,7 +30,7 @@ get_header();
                                         background: none !important
                                     }</style>
                             </iframe>
-                            </a></small>
+
                             <address class="address">
                                 <p>Cơ sở 1: 46 Trần Quốc Hoàn - Cầu Giấy - Hà Nội <br>Cơ sở 2: 16 Phạm Tuấn Tài - Cầu
                                     Giấy - Hà Nội</p>

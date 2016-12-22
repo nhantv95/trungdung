@@ -97,7 +97,7 @@ get_header();
                                     'post_type' => 'feedback',
                                     'meta_key' => 'isPosted',
                                     'meta_value' => 'a:1:{i:0;s:4:"true";}',
-                                    'posts_per_page' => 4,
+                                    'posts_per_page' => 3,
                                 );
                                 $wp_query = new WP_Query($args2);
                                 ?>
@@ -107,13 +107,13 @@ get_header();
                                 if ($wp_query->have_posts()) : while ($wp_query->have_posts()):$wp_query->the_post();
                                     ?>
                                     <div class="post1 col-md-6">
+                                        <p>
+                                            <?php echo get_the_content(); ?>
+                                        </p>
                                         <h4> <?php echo get_field('name'); ?> </h4>
                                         <div class="post1_header">
                                             Chủ đề: <?php the_title(); ?>
                                         </div>
-                                        <p>
-                                            <?php echo get_the_content(); ?>
-                                        </p>
                                     </div>
                                 <?php endwhile; endif; ?>
 <!--                            </ul>-->

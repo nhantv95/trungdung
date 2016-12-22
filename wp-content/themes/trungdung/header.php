@@ -40,53 +40,27 @@
 <div class="header">
     <div class="header_top">
         <div class="container">
-            <div class="headertop_nav">
-                <ul>
-
-                </ul>
+            <div class="logo">
+                <h1><a href="<?= esc_url(home_url('/')); ?>"><span>Nhà hàng</span>Trung Dũng</a></h1>
             </div>
-            <div class="header-top-right">
-                <div class="login_box">
-                    <div id="loginContainer">
-                        <a id="loginButton" class="active"><span class="active"><i class="search-icon"></i>Search</span></a>
-                        <div id="loginBox">
-                            <form id="loginForm">
-                                <div class="search_box">
-                                    <input type="text" value="Search" onfocus="this.value = '';"
-                                           onblur="if (this.value == '') {this.value = 'Search';}">
-                                    <input type="submit" value="">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+            <div class="navigation">
+                <div>
+                    <label class="mobile_menu" for="mobile_menu">
+                        <span>Menu</span>
+                    </label>
+                    <input id="mobile_menu" type="checkbox"/>
+                    <ul class="nav">
+                        <li><a href="<?= esc_url(home_url('/')); ?>">Trang chủ</a></li>
+                        <li><a href="<?= get_permalink(75) ?>">Giới thiệu</a></li>
+                        <li><a href="<?= get_permalink(4) ?>">Tin tức</a></li>
+                        <li><a href="<?= get_permalink(38) ?>">Thực đơn</a></li>
+                        <li><a href="<?= get_page_link(23) ?>">Đặt bàn</a></li>
+                        <li><a href="<?= get_page_link(67) ?>">Liên hệ/Phản hồi</a></li>
+                        <div class="clearfix"></div>
+                    </ul>
                 </div>
             </div>
             <div class="clearfix"></div>
         </div>
-    </div>
-</div>
-<div class="header_bottom">
-    <div class="container">
-        <div class="logo">
-            <h1><a href="<?= esc_url(home_url('/')); ?>"><span>Nhà hàng</span>Trung Dũng</a></h1>
-        </div>
-        <div class="navigation">
-            <div>
-                <label class="mobile_menu" for="mobile_menu">
-                    <span>Menu</span>
-                </label>
-                <input id="mobile_menu" type="checkbox"/>
-                <ul class="nav">
-                    <li><a href="<?= esc_url(home_url('/')); ?>">Trang chủ</a></li>
-                    <li><a href="<?= get_permalink(75) ?>">Giới thiệu</a></li>
-                    <li><a href="<?= get_permalink(4) ?>">Tin tức</a></li>
-                    <li><a href="<?= get_permalink(38) ?>">Thực đơn</a></li>
-                    <li><a href="<?= get_page_link(23)?>">Đặt bàn</a></li>
-                    <li><a href="<?= get_page_link(67)?>">Liên hệ/Phản hồi</a></li>
-                    <div class="clearfix"></div>
-                </ul>
-            </div>
-        </div>
-        <div class="clearfix"></div>
     </div>
 </div>

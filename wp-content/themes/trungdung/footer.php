@@ -22,6 +22,16 @@
 	       	 		</div>
                     <div class="col-md-4 footer_grid">
                         <h4>CÔNG TY TNHH TD TRUNG DŨNG</h4>
+                        <iframe width="300" height="200" frameborder="0" scrolling="no" marginheight="0"
+                                src="https://maps.google.com/maps?q=46 Trần Quốc Hoàn, Hà Nội, Cầu Giấy, Việt Nam, &t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                marginwidth="0"><a class="addmaps" href="http://www.map-embed.com/it/"
+                                                   id="get-map-data"
+                                                   mce_href="http://maps.google.com/maps/api/js?sensor=false">map-embed.com</a>
+                            <style>#gmap_canvas img {
+                                    max-width: none !important;
+                                    background: none !important
+                                }</style>
+                        </iframe>
                     </div>
                     <div class="col-md-4 footer_grid">
 	       	 			<h4>Địa chỉ</h4>
