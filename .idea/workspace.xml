@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a66a5b3e-3c0b-42c5-949a-320628e2b33b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/trungdung/pageContact.php" afterPath="$PROJECT_DIR$/wp-content/themes/trungdung/pageContact.php" />
-    </list>
+    <list default="true" id="a66a5b3e-3c0b-42c5-949a-320628e2b33b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,12 +297,12 @@
       <workItem from="1482133739231" duration="6139000" />
       <workItem from="1482162531685" duration="3641000" />
       <workItem from="1482331044867" duration="9574000" />
-      <workItem from="1482374680441" duration="861000" />
+      <workItem from="1482374680441" duration="2057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30105000" />
+    <option name="totallyTimeSpent" value="31301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
