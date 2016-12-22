@@ -1,4 +1,6 @@
 We are using CMS Wordpress framework to develop website of Trung Dung Restaurant.
+Installation:
+Import file trungdung.sql to database host.
 
 Configuration:
 After load database trungdung.sql, go to wp_options table, change the value of option_value 
