@@ -38,18 +38,19 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="header">
-    <div class="header_top">
-        <div class="container">
-            <div class="logo">
-                <h1><a href="<?= esc_url(home_url('/')); ?>"><span>Nhà hàng</span>Trung Dũng</a></h1>
+    <div class="header_top" style="background:#f1e8c9">
+        <div class="container" >
+            <div class="logo" style="padding:0 !important">
+                <a href="http://localhost:81/trungdung/"><img src="/trungdung/wp-content/themes/trungdung/images/trungdung.png" height="128px"></a>
             </div>
             <div class="navigation">
                 <div>
-                    <label class="mobile_menu" for="mobile_menu">
+                    <label class="mobile_menu" for="mobile_menu" >
                         <span>Menu</span>
                     </label>
                     <input id="mobile_menu" type="checkbox"/>
-                    <ul class="nav">
+					<b>
+                    <ul class="nav" style="font-size:18px ! important">
                         <li><a href="<?= esc_url(home_url('/')); ?>">Trang chủ</a></li>
                         <li><a href="<?= get_permalink(75) ?>">Giới thiệu</a></li>
                         <li><a href="<?= get_permalink(4) ?>">Tin tức</a></li>
@@ -58,6 +59,7 @@
                         <li><a href="<?= get_page_link(67) ?>">Liên hệ/Phản hồi</a></li>
                         <div class="clearfix"></div>
                     </ul>
+					</b>
                 </div>
             </div>
             <div class="clearfix"></div>
